@@ -2,6 +2,7 @@
 
 For migration to another OS.
 
+- (windows key)
 - (hidden '.*' directories/files)
 - Adobe Bridge (image tags)
 - Adobe Photoshop (hotkeys)

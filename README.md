@@ -1,3 +1,3 @@
-# chocolatey-helper-scripts
+# package-management-helper-scripts
 
 Todo.

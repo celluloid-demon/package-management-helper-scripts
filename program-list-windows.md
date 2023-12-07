@@ -129,6 +129,7 @@
 - CyberLink PowerDVD 14 (for Blu-ray playback)
 - ExplorerPatcher (for moving windows 11 taskbar to top of screen <3)
 - GameMaker Studio 2
+- Git Bash (for your windows-specific helper scripts)
 - Huion tablet driver
 - Macrium Reflect Free
 - Minecraft

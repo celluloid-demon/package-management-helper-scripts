@@ -2,11 +2,8 @@
 
 ## Share folder names:
 
-- ISO
-- Media
-- Scripts
-- shared-config-nix
-- shared-config-win
-- Soccer Ball
-- Vault
-- WFPK
+[x] - iso
+[x] - media
+[x] - vault
+[] - Soccer Ball > soccer-ball
+[] - WFPK > wfpk

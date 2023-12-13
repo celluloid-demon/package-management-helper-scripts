@@ -1,6 +1,12 @@
 # Migration Checklist
 
-## From Windows to another OS
+*******************************************************************************
+
+***TODO - COPIED FROM WINDOWS CHECKLIST AS A TEMPLATE, CUSTOMIZE FOR FEDORA APPLICATIONS / GIT PROJECTS***
+
+*******************************************************************************
+
+## From the Fedora KDE 'Spin' to another OS
 
 ### Backup:
 
@@ -18,15 +24,15 @@
 
 [x] - resilio sync shares
 
+### Copy:
+
+[] - all ***hidden*** git project custom settings / config files (typically in respective git projects under `$HOME/.local/git`)
+[x] - D:/ data drive ***FOR ALL LOCAL USERS YOU SET UP*** (overnight robocopy script, format destination as ntfs, give exclusive access to robocopy, ***run from elevated prompt***)
 
 ### Push:
 
 [x] - all git projects
-
-### Copy:
-
-[x] - WSL hidden dot-files (if any)
-[x] - D:/ data drive ***FOR ALL LOCAL USERS YOU SET UP*** (overnight robocopy script, format destination as ntfs, give exclusive access to robocopy, ***run from elevated prompt***)
+[] - all ***hidden*** git projects (typically under `$HOME/.local/git/`)
 
 ### [Fedora] Post:
 

@@ -4,152 +4,153 @@
 
 ### Adobe Creative Cloud:
 
-- Acrobat
-- After Effects
-- Animate (Flash)
-- Audition
-- Bridge
-- Illustrator
-- Lightroom Classic
-- Media Encoder
-- Photoshop
-- Premiere Pro
-- Substance 3D Painter
+[] - Acrobat
+[] - After Effects
+[] - Animate (Flash)
+[] - Audition
+[] - Bridge
+[] - Illustrator
+[] - Lightroom Classic
+[] - Media Encoder
+[] - Photoshop
+[] - Premiere Pro
+[] - Substance 3D Painter
 
 ### Battle.net:
 
-- ...
+[] - ...
 
 ### Chocolatey:
 
-- 7zip
-- anki
-- audacity
-- autohotkey
-- blender
-- chrome (evergreen)
-- cyberduck
-- docker desktop
-- discord (evergreen)
-- everything
-- file converter
-- firefox (evergreen)
-- fontforge
-- gimp
-- handbrake
-- imagemagick
-- inkscape
-- kdenlive
-- krita
-- libre office
-- makemkv
-- mediainfo
-- mkvtoolnix
-- mp3tag
-- mpv
-- notepad++
-- obsidian
-- opentoonz
-- openvpn
-- paint.net
-- pdfsam basic
-- PuTTY
-- qBittorrent
-- signal
-- subtitle edit
-- syncplay
-- vapoursynth
-- veracrypt
-- visual studio code
-- vlc
-- windirstat
-- zoom
+[] - 7zip
+[] - anki
+[] - audacity
+[x] - autohotkey
+[] - blender
+[x] - chrome (evergreen)
+[] - cyberduck
+[] - **docker desktop**
+[x] - discord (evergreen)
+[x] - everything
+[x] - file converter
+[x] - firefox (evergreen)
+[] - fontforge
+[] - gimp
+[] - handbrake
+[] - imagemagick
+[] - inkscape
+[] - kdenlive
+[] - krita
+[x] - libre office
+[] - makemkv
+[] - mediainfo
+[] - mkvtoolnix
+[] - mp3tag
+[x] - mpv
+[x] - notepad++
+[] - **obsidian**
+[] - opentoonz
+[] - openvpn
+[x] - paint.net
+[] - pdfsam basic ***OR*** alternative...
+[x] - PuTTY
+[] - qBittorrent
+[] - **signal**
+[] - subtitle edit
+[] - syncplay
+[] - vapoursynth
+[] - veracrypt
+[x] - **visual studio code**
+[] - vlc
+[] - windirstat
+[] - zoom
 
 ### Epic Games Launcher:
 
-- ...
+[] - ...
 
 ### GOG Galaxy:
 
-- ...
+[] - ...
 
 ### itch:
 
-- ...
+[] - ...
 
 ### Oculus:
 
-- Oculus app
+[] - Oculus app
 
 ### SideQuest:
 
-- ...
+[] - ...
 
 ### Steam:
 
-- ...
+[] - ...
 
 ### Windows Store:
 
-- NVIDIA Control Panel
-- PowerShell 7
-- Scan
-- Snipping Tool
-- Terminal
-- WSL
+[x] - NVIDIA Control Panel
+[x] - PowerShell 7
+[x] - Scan
+[x] - Snipping Tool
+[x] - Terminal
+[x] - WSL
 
 ## Standalone installs
 
 ### Apple:
 
-- iCloud (for syncing local files to iPhone)
-- iTunes
+[] - iCloud (for syncing local files to iPhone)
+[] - iTunes
 
 ### Autodesk:
 
-- Sketchbook
+[x] - Sketchbook
 
 ### Git Projects:
 
-- shared-config (wsl)
+[x] - shared-config (wsl)
 
-### Web Apps (Chrome):
+### Web Apps (Chrome / Chromium):
 
-- ChatGPT
-- Google
-- Google Calendar
-- Notion
-- Reclaim
-- Todoist
-- WaniKani
+[x] - ChatGPT
+[x] - Gmail
+[x] - Google
+[x] - Google Calendar
+[x] - Notion
+[x] - Reclaim
+[x] - Todoist
+[x] - WaniKani
 
 ### Other:
 
-- CyberLink Media Suite 10 (bundled w/ PowerDVD)
-- CyberLink PowerDVD 14 (for Blu-ray playback)
-- ExplorerPatcher (for moving windows 11 taskbar to top of screen <3)
-- GameMaker Studio 2
-- Git Bash (for your windows-specific helper scripts)
-- Huion tablet driver
-- Macrium Reflect Free
-- Minecraft
-- OpenMW
-- Plexamp
-- PowerToys
-- Resilio Sync
-- TechPowerUp GPU-Z (for GPU ROM extraction, kvm gpu passthru)
-- Virtual Desktop Streamer (for Oculus Quest 2)
-- Vortex (for morrowind mods)
-- Wolow Companion (for receiving wake-on-lan magic packets)
+[x] - CyberLink Media Suite 10 (bundled w/ PowerDVD)
+[x] - CyberLink PowerDVD 14 (for Blu-ray playback)
+[x] - ExplorerPatcher (for moving windows 11 taskbar to top of screen <3)
+[x] - GameMaker Studio 2
+[x] - Git Bash (for your windows-specific helper scripts)
+[x] - Huion tablet driver
+[x] - Macrium Reflect Free
+[] - Minecraft
+[] - OpenMW
+[-] - Plexamp
+[x] - PowerToys
+[x] - Resilio Sync
+[-] - TechPowerUp GPU-Z (for GPU ROM extraction, kvm gpu passthru)
+[] - Virtual Desktop Streamer (for Oculus Quest 2)
+[-] - Vortex ***OR*** OpenMW (for morrowind mods / plugins)
+[-] - Wolow Companion (for receiving wake-on-lan magic packets)
 
 ## Device-specific
 
 ### Lenovo Legion laptop:
 
-- (drivers)
-- Intel Graphics Command Center
-- Lenovo Vantage
+[x] - (drivers)
+[x] - Intel Graphics Command Center
+[x] - Lenovo Vantage
 
 ### Logitech peripherals:
 
-- Logi Options+
+[x] - Logi Options+

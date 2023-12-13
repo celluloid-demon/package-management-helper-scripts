@@ -6,11 +6,11 @@
 set -e
 
 # Declare vars
-source='/home/jonathan/Desktop/jonat_bak'
-destination='/mnt/usb-Samsung_PSSD_T7_Shield_S6SFNJ0W528979W-0:0-part1/ds2/tmp/'
+source="/run/media/jonathan/big-boi/jonat_bak"
+destination="/home/jonathan/Desktop/"
 
 # Sync files using rsync (checksum)
-# rsync -r -t -v --progress --ignore-existing -c -l -s "$source" "$destination"
+rsync -r -t -v --progress --ignore-existing -c -l -s "$source" "$destination"
 
 # Sync files using rsync (no checksum)
-rsync -r -t -v --progress --ignore-existing -l -s "$source" "$destination"
+# rsync -r -t -v --progress --ignore-existing -l -s "$source" "$destination"

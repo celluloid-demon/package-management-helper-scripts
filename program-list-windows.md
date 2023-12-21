@@ -134,7 +134,7 @@
 [x] - Huion tablet driver
 [x] - Macrium Reflect Free
 [] - Minecraft
-[] - OpenMW
+[x] - OpenMW
 [-] - Plexamp
 [x] - PowerToys
 [x] - Resilio Sync

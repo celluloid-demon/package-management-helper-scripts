@@ -5,14 +5,14 @@
 ### Adobe Creative Cloud:
 
 [] - Acrobat
-[] - After Effects
+[] - **After Effects**
 [] - Animate (Flash)
 [] - Audition
 [] - Bridge
 [] - Illustrator
 [] - Lightroom Classic
 [] - Media Encoder
-[] - Photoshop
+[] - **Photoshop**
 [] - Premiere Pro
 [] - Substance 3D Painter
 
@@ -103,7 +103,7 @@
 ### Apple:
 
 [] - iCloud (for syncing local files to iPhone)
-[] - iTunes
+[] - **iTunes**
 
 ### Autodesk:
 

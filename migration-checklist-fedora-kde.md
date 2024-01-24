@@ -26,6 +26,7 @@ From another OS to the Fedora KDE 'Spin'
 
 - minor grub cleanup as per obsidian notes
 - timeshift
+	- WARNING: Timeshift needs a **"flat" subvolume layout** with **no nested subvolumes** (read: with timeshift you cannot, for example, create a `/games` nested subvolume, timeshift will lose track of this subvolume and not honor it - a better practice is to create additional **top-level** subvolumes from live media and mount them directly through fstab).
 	- for easy rollback of `@` - the subvol that your OS is stored on
 - (optional) btrfs-assistant ***OR*** btrfs-snp
 	- **WARNING:** The `btrfs-snp` project is NOT the same as the `btrfs-snap` project, which it is inspired by!

@@ -25,6 +25,11 @@ From another OS to the Fedora KDE 'Spin'
 #### Btrfs group
 
 - minor grub cleanup as per obsidian notes
+
+	When booting your system, you may have noticed the following error message.
+	error: ../../grub-core/commands/loadenv.c:216:sparse file not allowed.
+	This is because you did not create a separate ext4 /boot partition and instead included it in the btrfs system root. GRUB preboot writes to /boot/grub2/grubenv if the boot was successful. This error occurs because of the GRUB btrfs.mod driver, unlike ext4, is read-only. To resolve this, open the Gnome terminal and execute the following command.
+	`$ sudo grub2-editenv - unset menu_auto_hide`
 - timeshift
 	- WARNING: Timeshift needs a **"flat" subvolume layout** with **no nested subvolumes** (read: with timeshift you cannot, for example, create a `/games` nested subvolume, timeshift will lose track of this subvolume and not honor it - a better practice is to create additional **top-level** subvolumes from live media and mount them directly through fstab).
 	- for easy rollback of `@` - the subvol that your OS is stored on
@@ -227,6 +232,27 @@ Note: "Install" docker image repos to `$HOME/Applications`.
 #### Virtualization group
 
 - https://docs.fedoraproject.org/en-US/quick-docs/virtualization-getting-started/
+
+Note: Most mount options apply to the whole filesystem and only options in the first mounted subvolume will take effect. This is due to lack of implementation and may change in the future. This means that (for example) you can’t set per-subvolume nodatacow, nodatasum, or compress using mount options. This should eventually be fixed, but it has proved to be difficult to implement correctly within the Linux VFS framework.
+
+Note: Mount options are processed in order, only the last occurrence of an option takes effect and may disable other options due to constraints (see e.g. nodatacow and compress). The output of mount command shows which options have been applied.
+
+`$ chattr +C /dir/file`
+
+__qcow2 supported options:__
+
+nocow
+If this option is set to on, it will turn off COW of the file. It’s only valid on btrfs, no effect on other file systems.
+
+Btrfs has low performance when hosting a VM image file, even more when the guest on the VM also using btrfs as file system. Turning off COW is a way to mitigate this bad performance. Generally there are two ways to turn off COW on btrfs:
+
+Disable it by mounting with nodatacow, then all newly created files will be NOCOW.
+
+For an empty file, add the NOCOW file attribute. That’s what this option does.
+
+Note: this option is only valid to new or empty files. If there is an existing file which is COW and has data blocks already, it couldn’t be changed to NOCOW by setting nocow=on. One can issue lsattr filename to check if the NOCOW flag is set or not (Capital ‘C’ is NOCOW flag).
+
+---
 
 By default the system administration is limited to the root user, if you want to enable a regular user you have to proceed as follows:
 

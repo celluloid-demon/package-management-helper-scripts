@@ -274,6 +274,7 @@ sudo systemctl enable libvirtd
 sudo usermod -a -G libvirt $(whoami)
 ```
 
+Note: To get winget to run, you'll likely need to run manual windows store updates for apps, including App Installer which winget requires to function correctly.
 
 #### "Dual drive" group
 

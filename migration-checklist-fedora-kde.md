@@ -173,6 +173,27 @@ Host raspberry-pi
 
 - dnf (rpmfusion): steam
 - steam: tablestop simulator, magic the gathering table workshop download (as a test install)
+- steam: helldivers 2
+	- in-game settings: windowed mode (gamescope fullscreen shortcut: meta + F)
+	- ProtonUp-Qt: `flatpak install flathub net.davidotek.pupgui2`
+		- reference: https://flathub.org/apps/net.davidotek.pupgui2
+		- Proton-GE
+			- reference: https://github.com/GloriousEggroll/proton-ge-custom
+	- proton version: GE-Proton9-4 (and up)
+	- `sudo dnf install gamemode`
+		- reference: https://github.com/FeralInteractive/gamemode
+	- `sudo dnf install gamescope`
+		- reference: https://github.com/ValveSoftware/gamescope
+		- keyboard shortcuts:
+			- Super + F : Toggle fullscreen
+			- Super + N : Toggle nearest neighbour filtering
+			- Super + U : Toggle FSR upscaling
+			- Super + Y : Toggle NIS upscaling
+			- Super + I : Increase FSR sharpness by 1
+			- Super + O : Decrease FSR sharpness by 1
+			- Super + S : Take screenshot (currently goes to /tmp/gamescope_$DATE.png)
+			- Super + G : Toggle keyboard grab
+	- launch options: `gamemoderun gamescope -- %command% --use-d3d11`
 - openmw: https://openmw.org/downloads/ (must initialize official morrowind configuration files [read: install and run morrowind] before launching openmw wizard)
 - openmw: test launch
 

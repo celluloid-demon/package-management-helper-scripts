@@ -21,6 +21,7 @@ From another OS to the Fedora KDE 'Spin'
 - repo: package-management-helper-scripts
 - vscode: https://code.visualstudio.com/docs/setup/linux
 - symlink to $HOME/Documents/SSH dir (copy from previous user data backup), test connection to device(s), alias
+- `sudo dnf groupinstall "Development Tools" "Development Libraries"`
 
 #### Btrfs group
 
